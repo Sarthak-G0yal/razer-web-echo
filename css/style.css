@@ -1,0 +1,58 @@
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    height: 3.7rem;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid green;
+    display: flex;
+    place-content: center;
+    position: fixed;
+}
+.nav-bar{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.razer-logo{
+    height: 40px;
+}
+.header-nav-link{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:medium;
+    color: rgb(187, 184, 184);
+}
+.header-nav-link:hover{
+    font-weight: 600;
+    color: white;
+}
+.header-nav-box{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-nav-box:hover{
+    border-bottom: 2px solid white;
+}
+.header-nav-icon{
+    margin-left: -20px;
+}
+main{
+    color: white;
+}
