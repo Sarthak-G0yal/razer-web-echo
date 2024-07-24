@@ -1,5 +1,6 @@
 /* IMPORT FONT */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 /* RESET */
@@ -12,13 +13,15 @@ body{
     background-color: black;
 }
 header{
-    height: 3.7rem;
+    height: 60px;
     width: 100%;
     background-color: black;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid greenyellow;
     display: flex;
     place-content: center;
     position: fixed;
+    top:0;
+    width: 100%;
 }
 .nav-bar{
     height: 100%;
@@ -53,6 +56,84 @@ header{
 .header-nav-icon{
     margin-left: -20px;
 }
-main{
+.razer-notification-info{
+    height: 42px;
+    margin-top: 60px;
+    background-color: #515151;
     color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size:14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.razer-notification-info a{
+    text-decoration: none;
+    color: white;
+}
+
+.info-table{
+    background-color: #353535;
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    gap: 10px;
+}
+.image-container{
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.razer-panel-1{height:700px;background-image: url("/img/razer-huntsman-v3-pro-line-homepage-desktop2x.png");}
+.razer-panel-2{height: 600px;background-image: url(/img/razer-mid-year-gear-up-primeday-homepage-desktop2x.png);}
+.razer-panel-3{height: 600px;background-image: url(/img/kitsune-akuma-homepage2x.png);}
+.span-column-2{
+    grid-column: span 2;
+}
+.info-table a{
+    text-decoration: none;
+    color: white;
+}
+.line1{
+    font-family: "Roboto", sans-serif;
+    font-size: 55px;
+    font-weight: 500;    
+}
+.line2{
+    font-family: "Roboto", sans-serif;  
+    font-size: 25px;
+    font-weight: 300;
+}
+.line3{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.green-arrow{
+    color: greenyellow;
+}
+.razer-panel-4{height: 550px;background-image: url(/img/razer-back-to-school-2024-b-950x580-desktop.png);}
+.razer-panel-5{height: 550px;background-image: url(/img/creator-program-950x580-desktop.png);}
+.razer-panel-6{height: 550px;background-image: url(/img/razer-blade-18-2024-b-950x580-desktop.png);}
+.razer-panel-7{height: 550px;background-image: url(/img/razerstore-rewards-signup-chairs-promo-b-950x580-desktop.png);}
+.razer-panel-8{height: 550px;background-image: url(/img/razer-blade-14-b-950x580-desktop.png);}
+.razer-panel-9{height: 550px;background-image: url(/img/esports-campaign-2024-b-950x580-desktop.png);}
+.smaller-line-font-size .line1{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 500;    
+}
+.smaller-line-font-size .line2{
+    font-family: "Roboto", sans-serif;  
+    font-size: 20px;
+    font-weight: 300;
+}
+.smaller-line-font-size .line3{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+footer{
+    height: 320px;
 }
