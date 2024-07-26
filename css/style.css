@@ -134,6 +134,87 @@ header{
     font-family: "Roboto", sans-serif;
     font-size: 15px;
 }
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
 footer{
-    height: 320px;
+    height: 400px;
+    background-color: #101010;
+}
+.footer-links{
+    width: 95%;     
+    display: grid;
+    grid-template-columns: .14fr .1fr .14fr .13fr .14fr .2fr;
+    justify-content: center;
+}
+.sub-section{
+    display: flex;
+    flex-direction: column;
+}
+.razer-footer-quote{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: greenyellow;
+    display: flex;
+    justify-content: right;
+}
+.subsection-heading{
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+.subsection-links{
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Roboto", sans-serif;
+}
+.subsection-links:hover{
+    color: white;
+    text-decoration: underline;
+}
+.less-spacing{
+    margin-top: 10px;
+}
+.footer-bottom p{
+    font-size: 12px;
+    color: rgba(255, 255, 255, .4);
+    grid-column: span 2;
+}
+#hr-bottom{
+    border: none;
+    height: 1px;
+    background-color:rgba(255, 255, 255, .4); 
+    grid-column: span 6; 
+}
+.copyright{
+    margin-top: 15px;
+    grid-column: span 2;
+    font-size: 12px;
+    color:rgba(255, 255, 255, .4); 
+}
+.other-links{
+    grid-column: span 2;
+    color: rgba(255, 255, 255, .4);
+    margin-top: 15px;
+    font-size: 12px;
+}
+.other-links a,.footer-location a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, .4);
+}
+.other-links a:hover , .footer-location a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer-location{
+    margin-top: 15px;
+    font-size: 12px;
+    display: flex;
+}
+.footer-location p{
+    color: white;
 }
