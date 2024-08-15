@@ -3,6 +3,8 @@
 This project is a clone of the Homepage of [Razer](https://www.razer.com/) website, developed as a practice exercise to enhance my web development skills. As my 2<sup>nd</sup> web development project the goals were to replicate the layout, design, and functionality of the original site.
 
 
+Check out the live version of the project [here](https://sarthak-g0yal.github.io/razer-web-echo/).
+
 ## Table Of Contents
 
 - [Overview](#overview)
