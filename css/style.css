@@ -87,9 +87,19 @@ header{
     flex-direction: column;
     align-items: center;
 }
-.razer-panel-1{height:700px;background-image: url("../resources/razer-huntsman-v3-pro-line-homepage-desktop2x.png");}
-.razer-panel-2{height: 600px;background-image: url("../resources/razer-mid-year-gear-up-primeday-homepage-desktop2x.png");}
-.razer-panel-3{height: 600px;background-image: url("../resources/kitsune-akuma-homepage2x.png");}
+
+/* Image for Divs*/
+.razer-panel-1{height:735px;background-image: url("../resources/web-img/razer-wolverine-v3-pro-homepage-desktop2x.webp");}
+.razer-panel-2{height: 725px;background-image: url("../resources/web-img/edgwins-homepage-desktop2x.webp");}
+.razer-panel-3{height: 725px;background-image: url("../resources/web-img/intel-gamer-days-2024-homepage-desktop2x.webp");}
+.razer-panel-4{height: 580px;background-image: url("../resources/web-img/razercon-2024-b-950x580-desktop.webp");}
+.razer-panel-5{height: 580px;background-image: url("../resources/web-img/razer-wolverine-v3-te-b-950x580-desktop.webp");}
+.razer-panel-6{height: 580px;background-image: url("../resources/web-img/razer-kraken-v4-homepage-b-950x580-desktop.webp");}
+.razer-panel-7{height: 580px;background-image: url("../resources/web-img/razer-kishi-x-honkai-impact-3-b-950x580-desktop.webp");}
+.razer-panel-8{height: 580px;background-image: url("../resources/web-img/razer-blade-18-2024-b-950x580-desktop.png");}
+.razer-panel-9{height: 580px;background-image: url("../resources/web-img/chair-q3-campaign-b-950x580-desktop.webp");}
+
+
 .span-column-2{
     grid-column: span 2;
 }
@@ -114,12 +124,6 @@ header{
 .green-arrow{
     color: greenyellow;
 }
-.razer-panel-4{height: 550px;background-image: url("../resources/razer-back-to-school-2024-b-950x580-desktop.png");}
-.razer-panel-5{height: 550px;background-image: url("../resources/creator-program-950x580-desktop.png");}
-.razer-panel-6{height: 550px;background-image: url("../resources/razer-blade-18-2024-b-950x580-desktop.png");}
-.razer-panel-7{height: 550px;background-image: url("../resources/razerstore-rewards-signup-chairs-promo-b-950x580-desktop.png");}
-.razer-panel-8{height: 550px;background-image: url("../resources/razer-blade-14-b-950x580-desktop.png");}
-.razer-panel-9{height: 550px;background-image: url("../resources/esports-campaign-2024-b-950x580-desktop.png");}
 .smaller-line-font-size .line1{
     font-family: "Roboto", sans-serif;
     font-size: 40px;

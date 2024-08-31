@@ -70,3 +70,7 @@ If you have any questions or suggestions, feel free to contact me:
 
 - Name: Sarthak Goyal
 - Email: sarthak.goyal.3505@gmail.com
+
+## Original Web image
+
+![Image](resources/razer_web_image.png)
